@@ -1,0 +1,53 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#storyText {
+	font-family: Adobe, sans-serif;
+	line-height: 150%;
+	background-color: black;
+	color: white;
+	width: 40%;
+	height: 100%;
+	padding: 20px;
+}
+
+#log {
+	background-color: black;
+	color: white;
+	margin: 3%;
+	width: 30%;
+	min-height: 10px;
+	max-height: 100px;
+	padding: 20px;
+	bottom: 50px;
+	overflow-y: auto;
+	background-color: gray;
+	position: fixed;
+}
+
+#storyBoard {
+	background-color: white;
+	color: black;	
+	height: 100%;
+	
+}
+
+#userCommands {
+	position: fixed;
+	top: 90%;
+	left: 5%;
+	font-size: 40px;
+}
+
+#userCommands input {
+	min-width: 250px;
+	min-height: 30px;
+}
+
+#userCommands button {
+	padding: 5px 10px 5px 10px;
+}

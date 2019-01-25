@@ -1,0 +1,117 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-image: url("images/backgrnd0.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: fixed;
+}
+
+#menu {
+	background-color: rgba(228, 225, 225, 0.99);
+	width: 25%;
+	height: 35%;
+	top: 30%;
+	left: 36%;
+	position: fixed;
+	border: solid 4px black;
+}
+
+#male_p {
+	position: fixed;
+	top: 46%;
+	left: 80%;
+	background-color: transparent;
+	background: url("images/male_player.png") no-repeat;
+	width: 10%;
+	height: 20%;
+	background-size: 100% 100%;	
+}
+#male_p:hover {
+	transform: scaleX(-1);
+}
+
+#female_p {
+	position: fixed;
+	top: 46%;
+	left: 70%;
+	background-color: transparent;
+	background: url("images/female_player.png") no-repeat;
+	width: 7.5%;
+	height: 20%;
+	background-size: 100% 100%;	
+}
+#female_p:hover {
+	transform: scaleX(-1);
+}
+
+#castle {
+	background: url("images/castle.jpg") no-repeat;
+	position: fixed;
+	top: 25%;
+	left: 5%;
+	background-color: transparent;
+	width: 15%;
+	height: 40%;
+	background-size: 100% 100%;	
+}
+
+#ogre {
+	background: url("images/ogre.png") no-repeat;
+	position: fixed;
+	top: 45%;
+	left: 9%;
+	background-color: transparent;
+	width: 8%;
+	height: 20%;
+	background-size: 100% 100%;	
+	transform: scaleX(-1);
+	
+	animation: ogreAnimation 5s linear 2s infinite alternate;
+}
+
+@keyframes ogreAnimation {
+	from {left: 9%;}
+	to{left: 15%;}
+}
+
+#princess {
+	background: url("images/princess.png") no-repeat;
+	position: fixed;
+	top: 46%;
+	left: 23%;
+	background-color: transparent;
+	width: 6%;
+	height: 20%;
+	background-size: 100% 100%;
+	transform: scaleX(-1);
+}
+#princess:hover {
+	transform: scaleX(1);
+}
+.options {
+	position: relative;
+	left: 21%;
+	top: 20%;
+	border: solid 3px black;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+	margin: 12px;
+	padding: 10px;
+	background-color: white;
+	font-family: Helvetica, sans-serif;
+	cursor: pointer;
+	
+}
+.options a {
+	text-decoration: none;
+	color: black;
+}
+.options:hover {
+	width: 155px;
+	
+	left: 20%;
+	font-weight: bold;
+	
+}
